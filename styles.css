@@ -69,6 +69,12 @@ button:active {
 }
 
 @media only screen and (max-width: 600px) {
+    
+    body {
+        overflow: initial;
+             height: calc(100vh - 56px);
+    }
+    
     .container {
         padding-top: 5%;
         padding-bottom: 10%;
